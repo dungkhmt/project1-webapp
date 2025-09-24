@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./my-sum-app/node_modules
+
+
+
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.development
+.env.test.local
+.env.production.local
+.env.production
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.history/
+.vscode/
+./my-sum-app/package-lock.json
+/.idea/
+/.ssh/
+*.bat
+
+
+
+
+HELP.md
+./backend/project1/target/
+!.mvn/wrapper/maven-wrapper.jar
+./backend/project1/*.yml
+./backend/project1/.idea/
+**/node_modules/
+./backend/project1/.idea/lms.iml
+./backend/project1/.idea/misc.xml
+./backend/project1/.idea/vcs.xml
+./backend/project1/.idea/modules.xml
+
+.VSCodeCounter
