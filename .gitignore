@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-./my-sum-app/node_modules/*
+./frontend/my-sum-app/node_modules/*
 
 
 
@@ -21,7 +21,7 @@ yarn-error.log*
 
 .history/
 .vscode/
-./my-sum-app/package-lock.json
+./frontend/my-sum-app/package-lock.json
 /.idea/
 /.ssh/
 *.bat
@@ -39,5 +39,5 @@ HELP.md
 ./backend/project1/.idea/misc.xml
 ./backend/project1/.idea/vcs.xml
 ./backend/project1/.idea/modules.xml
-./my-sum-app/node_modules/*
+./frontend/my-sum-app/node_modules/*
 .VSCodeCounter
