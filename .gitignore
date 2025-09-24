@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-./my-sum-app/node_modules
+./my-sum-app/node_modules/*
 
 
 
@@ -39,5 +39,5 @@ HELP.md
 ./backend/project1/.idea/misc.xml
 ./backend/project1/.idea/vcs.xml
 ./backend/project1/.idea/modules.xml
-
+./my-sum-app/node_modules/*
 .VSCodeCounter
